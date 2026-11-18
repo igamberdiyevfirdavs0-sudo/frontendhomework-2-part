@@ -1,0 +1,196 @@
+@import url(fonts.css);
+@import url(common.css);
+
+/* header  */
+
+.nav {
+    background: #282828;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__card {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__search {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__link {
+    color: white;
+    font-size: 20px;
+}
+
+.nav__items {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.header {
+    background: url(../image/Header.png) no-repeat center center /cover;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.header__title {
+    color: white;
+    font-size: 100px;
+    font-family: "ProstoOne";
+    font-weight: 400;
+}
+
+.header__link {
+    color: black;
+    border: black 2px solid;
+    padding: 15px 15px;
+    background: white;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* header  */
+
+/* main  */
+
+/* products  */
+.products__card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.products__card-txt {
+    color: white;
+    font-size: 21px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding-top: 35px;
+}
+
+.products__card_airpods {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 90px;
+}
+
+.products__card-rectangle {
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+.products__card_airpodsPro {
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* products  */
+
+/* content  */
+
+.products__contents {
+    padding-top: 83px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.products__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 255px;
+    height: 312px;
+    padding: 15px 18px;
+    border-radius: 6px;
+}
+
+.products__content-title {
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.products__content-img {
+    padding: 15px 0;
+}
+
+.products__content-txt {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 23px;
+}
+
+.products__content-btn {
+    background: #000;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 7px 57px;
+
+}
+
+/* content  */
+
+/* main  */
+
+/* foote  */
+
+.footer {
+    background: #282828;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding: 80px 0;
+}
+
+.footer__logo {
+    width: 100px;
+    height: 53px;
+}
+
+.footer__payment {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__form * {
+    border: none;
+}
+/* footer */

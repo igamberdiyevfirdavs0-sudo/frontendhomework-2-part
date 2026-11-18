@@ -1,0 +1,20 @@
+@font-face {
+    src: url(/dars1/uyishi/fonts/MontserratProstoOne/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+@font-face {
+    src: url(/dars1/uyishi/fonts/MontserratProstoOne/Montserrat/static/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+@font-face {
+    src: url(/dars1/uyishi/fonts/MontserratProstoOne/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+@font-face {
+    src: url(/dars1/uyishi/fonts/MontserratProstoOne/ProstoOne/ProstoOne-Regular.ttf);
+    font-weight: 400;
+    font-family: "ProstoOne";
+}

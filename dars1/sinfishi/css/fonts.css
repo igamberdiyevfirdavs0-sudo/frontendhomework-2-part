@@ -1,0 +1,10 @@
+@font-face {
+    src: url(/dars1/sinfishi/fonts/Roboto/static/Roboto-Bold.ttf);
+    font-family: "Roboto";
+    font-weight: 700;
+}
+@font-face {
+    src: url(/dars1/sinfishi/fonts/Roboto/static/Roboto-Regular.ttf);
+    font-family: "Roboto";
+    font-weight: 400;
+}

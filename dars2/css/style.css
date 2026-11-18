@@ -1,0 +1,297 @@
+@import url(fonts.css);
+@import url(common.css);
+
+/* header  */
+
+.header {
+    padding-top: 30px;
+    background: #A259FF;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__logo {
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.nav__link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.common__link {
+    color: rgb(255, 221, 0);
+    font-weight: 700;
+}
+
+.header__title {
+    color: white;
+    font-size: 60px;
+    padding: 22px 0;
+}
+
+.header__txt {
+    color: white;
+    padding-bottom: 40px;
+}
+
+.header__img {
+    display: flex;
+    padding: 6px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/* header  */
+
+/* about  */
+
+.about .container {
+    display: flex;
+    margin-top: 50px;
+    display: flex;
+    padding: 30px;
+    gap: 70px;    
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 18px;
+}
+
+.about__img-nature {
+    min-width: 400px;
+    width: 100%;
+    height: 280px;
+    border-radius: 6px;
+}
+
+.about__desc-txt {
+    padding: 25px 0;
+}
+
+.about__desc-title {
+    font-weight: 500;
+    color: #4d4d4d;
+    padding-top: 20px;
+}
+
+.video__txt {
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #9e195399;
+}
+
+/* about  */
+
+/* services  */
+
+.services .container {
+    margin-top: 60px;
+    background: white;
+    padding: 50px 20px;
+}
+
+.services__cards {
+    display: flex;
+    gap: 30px;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.service__img-box {
+    background: #673AB7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.servicecard2 {
+    background: #ff4998;
+}
+
+.servicecard3 {
+    background: #5fd4ff;
+}
+
+.services__card-img {
+    padding: 10px;
+}
+
+/* services  */
+
+/* portfolio  */
+
+.portfolio .container {
+    margin-top: 30px;
+}
+
+.portfolio__card-list {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio__card-txt {
+    padding: 15px 0;
+    color: #4d4d4d;
+}
+
+.portfolio__card-title {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.portfolio__card-link {
+    color: #4d4d4d;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.2s;
+    border: none;
+    padding: 5px 15px;
+}
+
+.portfolio__card-link:hover {
+    background: #ff4998;
+    border-radius: 18px;
+    color: white;
+    padding: 5px 15px;
+}
+
+.portfolio__imgs {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 60px 0;
+    gap: 20px;
+}
+
+.portfolio__imgs-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__img {
+    max-width: 360px;
+    width: 100%;
+    height: 280px;
+    border-radius: 3px;
+}
+
+.portfolio__img1 {
+    max-width: 550px;
+    width: 100%;
+    height: 280px;
+    border-radius: 3px;
+}
+/* portfolio  */
+
+/* news  */
+
+.news .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffd7fe50;
+}
+
+.news__link {
+    display: inline-block;
+    padding-top: 80px;
+}
+
+.news__title {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #686767;
+}
+
+.news__card-img {
+    max-width: 229px;
+    width: 100%;
+    height: 184px;
+}
+
+.news__cards {
+    padding-top: 50px;
+    padding-bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.news__card {
+    max-width: 229px;
+    width: 100%;
+    height: 184px;
+}
+
+.news__card-link {
+    font-weight: 700;
+    color: #ff4998;
+}
+
+.news__card-link1 {
+    color: #673AB7;
+}
+
+.news__card-link2 {
+    color: #5fd4ff;
+}
+
+/* news  */
+
+/* footer  */
+
+.footer {
+    height: 150px;
+    background: #2c2c2c;
+    display: flex;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.footer__txt {
+    color: white;
+}
+
+/* footer  */

@@ -1,0 +1,384 @@
+@import url(fonts.css);
+@import url(common.css);
+
+/* header top*/
+
+.header__top {
+    background: url(../image/header.png) no-repeat center center /cover;
+    height: 768px;
+}
+
+.header__top .container {
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header__logo {
+    margin-top: 39px;   
+}
+
+.header__title {
+    color: white;
+    font-size: 50px;
+    font-family: "bebasneue";
+    font-weight: 400;
+    letter-spacing: 5.71px;
+}
+
+.header__txt {
+    color: white;
+    font-weight: 600;
+}
+
+.header__link {
+    margin-bottom: 70px;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* header top*/
+
+/* nav */
+.nav {
+    border: 2px solid #E6E6E6;
+    padding: 24px 0;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__items {
+    color: #48555B;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav__items:hover {
+    color: #00A4E5;
+}
+
+/* nav */
+
+/* story */
+
+.common__title {
+    text-align: center;
+    color: #48555B;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2.31px;
+    position: relative;
+    padding-top: 57px;
+    margin-bottom: 66px;
+}
+
+.common__title::after {
+    content: "";
+    position: absolute;
+    background: #00A4E5;
+    width: 50px;
+    height: 2px;
+    top: 110%;
+    left: 47%;
+}
+
+.story__box {
+    display: flex;
+    gap: 77px;
+}
+
+.story__desc-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: #48555B;
+}
+
+.span__link {
+    color: #16ACE8;
+}
+
+.story__txt {
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    font-weight: 400;
+}
+
+.story__images {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.story__image {
+    width: 140px;
+    height: 224px;
+}
+/* story */
+
+/* capabilities */
+
+.capabilities {
+    padding-top: 117px;
+}
+
+.capabilities__top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.capabilities__title {
+    position: relative;
+    color: #48555B;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.capabilities__title::after {
+    position: absolute;
+    max-width: 100%;
+    content: "";
+    background: #00A4E5;
+    width: 50px;
+    height: 2px;
+    top: 90%;
+    left: 0;
+}
+
+.capabilities__txt {
+    font-size: 11px;
+    font-weight: 400;
+    max-width: 405px;
+}
+
+.capabilities__desc {
+    display: flex;
+    gap: 30px;
+}
+
+.capabilities__btn {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    background: #00A4E5;
+    padding: 11px 29px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.capabilities__card {
+    border: #E6E6E6 1px solid;
+    padding: 38px 22px;
+}
+
+.capabilities__cards {
+    display: flex;
+    gap: 28px;
+    padding-top: 80px;
+}
+
+.capabilities__card-title {
+    font-size: 16px;
+    color: #48555B;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.43;
+    padding-top: 25px;
+    padding-bottom: 13px;
+}
+
+.capabilities__card-txt {
+    font-size: 13px;
+    font-weight: 400;
+    color: #48555B;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+}
+
+.capabilities__contacts {
+    padding-top: 115px;
+}
+
+.capabilities__contact {
+    background: url(../image/buildings.png) no-repeat center center /cover;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+    height: 498px;
+}
+
+.capabilities__contact-link {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    background: #00A4E5;
+    padding: 11px 29px;
+    margin-top: 75px;
+}
+
+.capabilities__contact-title {
+    text-align: center;
+    width: 350px;
+    height: 72px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #48555B;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    padding-top: 120px;
+}
+
+.capabilities__email {
+    background: #171819;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+}
+
+.capabilities__form-link {
+    padding: 11px 17px;
+    width: 250px;
+}
+
+.capabilities__form {
+    display: flex;
+    gap: 0;
+}
+
+.capabilities__form * {
+    border: none;
+    outline: none;
+}
+
+.email {
+    width: 400px;
+    height: 40px;
+}
+
+.capabilities__email-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.85px;
+}
+
+.capabilities__form-btn {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    background: #00A4E5;
+    cursor: pointer;
+    padding: 11px 48px;
+}
+/* capabilities */
+
+/* footer  */
+
+.footer {
+    background: #141A20;
+    padding: 38px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 83px;
+    flex-wrap: wrap;
+}
+
+.company {
+    max-width: 250px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links__list {
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+}
+
+.links__card {
+    display: flex;
+}
+
+.links__column {
+    padding-right: 24px;
+}
+
+.company__title {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+}
+
+.company__txt {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+}
+
+.links__title {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    padding-bottom: 20px;
+}
+
+.links__link {
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact__title {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+}
+
+.contact__link {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+}
+/* footer  */

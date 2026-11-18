@@ -1,0 +1,16 @@
+@media (max-width: 1125px) {
+    .products__card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .products__card-rectangle {
+        display: none;
+    }
+}
+
+@media (max-width: 569px) {
+    .products__content {
+        width: 500px;
+    }
+}
