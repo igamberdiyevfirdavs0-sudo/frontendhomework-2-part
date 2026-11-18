@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Inter";
+    src: url(/dars8/homework/fonts/Inter/Inter/static/Inter_18pt-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(/dars8/homework/fonts/Inter/Inter/static/Inter_18pt-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(/dars8/homework/fonts/Inter/Inter/static/Inter_18pt-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "DM sans";
+    src: url(/dars8/homework/fonts/DM_Sans/static/DMSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "DM sans";
+    src: url(/dars8/homework/fonts/DM_Sans/static/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "DM sans";
+    src: url(/dars8/homework/fonts/DM_Sans/static/DMSans-Medium.ttf);
+    font-weight: 500;
+}
